@@ -5,10 +5,10 @@ import './App.css'
 class App extends Component{
   render(){
     return(
-      <React.Fragment>
+      <>
         <h1>Battleship App</h1>
         <Square />
-      </React.Fragment>
+      </>
     )
   }
 }
